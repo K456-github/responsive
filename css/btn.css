@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkalami&display=swap');
+
+/* :root{
+    --normal-h : 70px;
+    --normal-fs: 12px;
+} */
+.mb{
+    margin-bottom: 5px;
+}
+body{
+    background-color: rgba(255, 207, 255, 0.8);
+}
+
+.btn{
+    display: inline-block;
+    box-sizing: border-box;
+    height: 50px;
+   
+    color: white;
+   
+    font-family:Alkalami ;
+    font-size: 10px;
+    text-transform: uppercase;
+    padding: 0 30px;
+    text-decoration: none;
+    line-height: 50px;
+   
+    
+}
+.btn-light{
+    color: black;
+    background-color: #ffffff;
+    border: 2px solid #ffffff;
+}
+.btn-dark{
+    background-color: #000000;
+    border: 2px solid  #000000;
+}
+.btn-primary{
+    background-color: #845EC2;
+    border: 2px solid  #845EC2;
+}
+.btn-secondry{
+    background-color:#be6a15 ;
+    border: 2px solid #be6a15 ;
+}
+.btn-accent{
+    background-color: rgba(255, 0, 0, 0.933);
+    border: 2px solid  rgba(255, 0, 0, 0.933);
+}
+.btn-outline{
+    color: #000000;
+    border: 2px solid #000000;
+}
+.btn-outline{
+    display: inline-block;
+    box-sizing: border-box;
+    height: 50px;
+   background-color: transparent;
+    color: #000;
+   border: 2px solid #000;
+    font-family:Alkalami ;
+    font-size: 10px;
+    text-transform: uppercase;
+    padding: 0 30px;
+    text-decoration: none;
+    line-height: 50px;
+   
+    
+}
+.btn-outline-light{
+    color: #9c8888;
+    border: 2px solid #ffffff;
+}
+/* .btn-outline-dark{
+    color: #000000;
+    border: 2px solid #000000;
+} */
+.btn-outline-primary{
+    color: #845EC2;
+    border: 2px solid #845EC2;
+}
+.btn-outline-secondry{
+    color: #be6a15;
+    border: 2px solid #be6a15;
+}
+.btn-outline-accent{
+    color: rgba(255, 0, 0, 0.933);
+    border: 2px solid rgba(255, 0, 0, 0.933);
+}
+.rounded{
+    border-radius: 25px;
+}
+.rounded-pill{
+    border-radius: 50px;
+}
+.btn-icon{
+    width: 50px;
+    padding: 0;
+    text-align: center;
+}
+

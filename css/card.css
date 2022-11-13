@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Signika+Negative:wght@600&display=swap');
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+body{
+    height: 3000px;
+    
+}
+.m-20{
+    margin: 20px;
+}
+.mb-20{
+    margin-bottom: 10px;
+}
+.over{
+    overflow: hidden;
+}
+.card{
+    width: 350px;
+    border-radius: 5px;
+    display: inline-block;
+    /* overflow: hidden; */
+    
+    background-color: #fdfa;
+}
+.card-body{
+    padding: 20px;
+}
+.card-icon{
+    margin-bottom: 20px;
+    transition: 0.5s;
+}
+.card:hover .card-icon{
+    color: red;
+    transform: scale(1.1);
+}
+.card:hover .card30{
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    transition: 0.5s;
+}
+
+.card-img{
+    width: 100%;
+    display: block;
+    border-radius: 2px 2px 0 0;
+    
+}
+/* .card-img:hover .img1{
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    transition: 0.5s;
+} */
+
+.card-img-top{
+    border-radius: 15px 15px 0 0;
+}
+.card-img-bottom{
+    border-radius: 0 0 2px 2px;
+}
+
+.card-title{
+    font-family:Signika Negative ;
+    margin-bottom: 15px;
+}
+.card-text{
+    font-family:Josefin Sans ;
+    line-height: 25px;
+   
+   
+}
+.text-center{
+    text-align: center;
+}
+.text-end{
+    text-align: right;
+}
+.card-btn{
+    background-color: #000;
+    border: 2px solid #000;
+    display: inline-block;
+    height: 50px;
+    text-decoration: none;
+    color: white;
+    line-height: 50px;
+    padding: 0 20px;
+    border-radius: 20px;
+    font-family:Josefin Sans ;
+}
+.card-btn-link{
+    background-color: transparent;
+    border: 2px solid transparent;
+    display: inline-block;
+    height: 50px;
+    text-decoration: none;
+    color: black;
+    line-height: 50px;
+    padding: 0 20px;
+    border-radius: 20px;
+    font-family:Josefin Sans ;
+}
+.btn-outter{
+    margin: auto;
+    margin-bottom: -25px;
+   
+    /* margin-left: 20px; */
+    display: block;
+    width: 130px;
+    text-align: center;
+}
+.btn:hover .btn-motion1{
+    color: rgb(255, 0, 106);
+    transform: scale(1.1);
+}
+.half-upper{
+    float: right;
+    margin-top: -25px;
+    position: relative;
+    margin-right: 20px;
+    background-color: bisque;
+    color: #000;
+}
+
+
